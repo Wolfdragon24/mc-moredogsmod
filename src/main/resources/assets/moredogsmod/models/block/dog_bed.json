@@ -1,0 +1,58 @@
+{
+    "textures": {
+        "particle": "moredogsmod:block/dog_bed_side",
+        "top": "moredogsmod:block/dog_bed_top",
+        "side": "moredogsmod:block/dog_bed_side",
+        "inside": "moredogsmod:block/dog_bed_inside",
+		"down": "moredogsmod:block/dog_bed_bottom"
+    },
+    "elements": [
+        {   "from": [ 0, 0, 0 ],
+            "to": [ 16, 3, 16 ],
+            "faces": {
+                "down":  { "texture": "#down", "cullface":"down"},
+                "up":    { "texture": "#inside"},
+                "north": { "texture": "#side"},
+                "south": { "texture": "#side"},
+                "west":  { "texture": "#side"},
+                "east":  { "texture": "#side"}
+            }
+        },
+        {   "from": [ 0, 3, 0 ],
+            "to": [ 2, 8, 16 ],
+            "faces": {
+                "up":    { "texture": "#top"},
+                "north": { "texture": "#side"},
+                "south": { "texture": "#side"},
+                "west":  { "texture": "#side"},
+                "east":  { "texture": "#side"}
+            }
+        },
+        {   "from": [ 14, 3, 0 ],
+            "to": [ 16, 8, 16 ],
+            "faces": {
+                "up":    { "texture": "#top"},
+                "north": { "texture": "#side"},
+                "south": { "texture": "#side"},
+                "west":  { "texture": "#side"},
+                "east":  { "texture": "#side"}
+            }
+        },
+        {   "from": [ 2, 3, 0 ],
+            "to": [ 14, 8, 2 ],
+            "faces": {
+                "up":    { "texture": "#top"},
+                "north": { "texture": "#side"},
+                "south": { "texture": "#side"}
+            }
+        },
+        {   "from": [ 2, 3, 14 ],
+            "to": [ 14, 8, 16 ],
+            "faces": {
+                "up":    { "texture": "#top"},
+                "north": { "texture": "#side"},
+                "south": { "texture": "#side"}
+            }
+        }
+    ]
+}

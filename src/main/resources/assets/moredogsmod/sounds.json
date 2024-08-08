@@ -1,0 +1,22 @@
+{
+	"item.whistle.use": {
+		"category": "item",
+		"subtitle": "item.whistle.use",
+		"sounds": [
+			{
+				"name": "moredogsmod:item/item.whistle.use",
+				"stream": true
+			},
+			
+			{
+				"name": "moredogsmod:item/item.whistle.use1",
+				"stream": true
+			},
+			
+			{
+				"name": "moredogsmod:item/item.whistle.use2",
+				"stream": true
+			}
+		]
+	}
+}
